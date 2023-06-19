@@ -1,0 +1,23 @@
+@font-face {
+    font-family: SpotifyFont;
+    src: url('GothamMedium.ttf') format('truetype');
+}
+
+html{
+    font-family: SpotifyFont;
+}
+
+p {
+    font-size: 80%;
+}
+
+.lowlight {
+    color:#f84545 
+}
+
+#main {
+    margin: auto;
+    width: 75%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
