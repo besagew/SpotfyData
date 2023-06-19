@@ -1,5 +1,5 @@
-var client_id = 'cb34e40b23fb4561a7464ac3f2c21882';
-var client_secret = '6214c01f8a1a46a49c75aa48cd4e2785';
+const client_id = process.env.CLIENT_ID;
+const client_secret = process.env.CLIENT_SECRET;
 
 var authOptions = {
   url: 'https://accounts.spotify.com/api/token',
